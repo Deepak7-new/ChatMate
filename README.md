@@ -1,6 +1,6 @@
 # chat_mate
 
-A Flutter chat application.
+A live chat application.
 
 ## Built with
 
