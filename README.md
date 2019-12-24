@@ -4,8 +4,8 @@ A live chat application.
 
 ## Built with
 
-* flutter -frontend
-* go -backend
-* postgresql -database
-* grpc -for remote procedure calls
+* flutter - frontend
+* go - server
+* postgresql - database
+* grpc - for remote procedure calls
 
