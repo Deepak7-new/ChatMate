@@ -6,6 +6,6 @@ A live chat application.
 
 * flutter - frontend
 * go - server
-* postgresql - database
+* postgreSQL - database
 * grpc - for remote procedure calls
 
