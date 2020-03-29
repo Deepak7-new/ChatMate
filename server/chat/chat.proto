@@ -1,0 +1,48 @@
+syntax = "proto3";
+ 
+package chat;
+
+message SendJoin {
+    string name = 1;
+}
+
+message GetJoin {
+  
+}
+
+message SendMessage {
+    string from = 1;
+    string to = 2;
+    string smsg = 3;
+}
+
+message GetMessage {
+    int64 id = 1;
+    string from = 2;
+    string to = 3;
+    string rmsg = 4;
+    string time = 5;
+}
+
+message SendAllMessage {
+    string usr = 1;
+}
+
+message GetAllMessage {
+    repeated GetMessage msgs = 1;
+}
+
+message SendUsers {
+
+}
+
+message GetUsers {
+    repeated string names = 1;
+}
+
+service Chats {
+    rpc Join (SendJoin) returns (GetJoin);
+    rpc Send (SendMessage) returns (GetMessage);
+    rpc Message (SendAllMessage) returns (GetAllMessage);
+    rpc Users (SendUsers) returns (GetUsers);
+}
