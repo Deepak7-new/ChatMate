@@ -1,6 +1,6 @@
 # chat_mate
 
-A live chat application.
+A live chat application. Created during internship.
 
 ## Built with
 
