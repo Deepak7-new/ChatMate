@@ -1,4 +1,4 @@
-# chat_mate
+# chat_mate.
 
 A live chat application.
 
